@@ -13,11 +13,12 @@ function App() {
       <Banner></Banner>
       <About></About>
       <WhySaarep></WhySaarep>
+      <Contact></Contact>
       {/* 
       <MemberShip></MemberShip>
       
       <Partner></Partner>
-      <Contact></Contact> */}
+       */}
     </div>
   )
 }
