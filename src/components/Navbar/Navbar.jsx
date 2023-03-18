@@ -19,7 +19,7 @@ const Navbar = () => {
                        {menuList}
                     </ul>
                 </div>
-                <a href='/'><img src={logo} className="w-[100px]" alt="" /></a>
+                <a href='/'><img src={logo} className="w-[150px]" alt="" /></a>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

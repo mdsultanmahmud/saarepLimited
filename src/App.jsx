@@ -8,14 +8,14 @@ import WhySaarep from "./components/WhySaarep/WhySaarep"
 
 function App() {
   return (
-    <div >
+    <div className="mx-4">
       <Navbar></Navbar>
       <Banner></Banner>
-      <About></About>
+      {/* <About></About>
       <MemberShip></MemberShip>
       <WhySaarep></WhySaarep>
       <Partner></Partner>
-      <Contact></Contact>
+      <Contact></Contact> */}
     </div>
   )
 }
