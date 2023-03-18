@@ -9,7 +9,7 @@ import WhySaarep from "./components/WhySaarep/WhySaarep"
 
 function App() {
   return (
-    <div className="mx-12">
+    <div className="mx-6 md:mx-12">
       <Navbar></Navbar>
       <Banner></Banner>
       <About></About>

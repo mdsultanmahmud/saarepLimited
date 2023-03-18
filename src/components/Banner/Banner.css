@@ -1,0 +1,11 @@
+
+.banner .flag{
+    width: 200px;
+}
+.banner .slider{
+    width: calc(100% - 400px);
+    /* width: 500px; */
+}
+.banner .event{
+    width: 200px;
+}
