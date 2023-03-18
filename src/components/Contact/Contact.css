@@ -1,0 +1,9 @@
+.scrl-top{
+    background-color: #02173C!important;
+    display: grid;
+    place-items: center;
+}
+.scrl-top svg{
+    fill: white!important;
+    font-weight: 600;
+}

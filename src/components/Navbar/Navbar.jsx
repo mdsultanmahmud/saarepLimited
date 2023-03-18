@@ -3,10 +3,10 @@ import logo from '../../assets/logo.jpg'
 const Navbar = () => {
     const menuList = <>
         <li><a href="#about">About</a></li>
-        <li><a href="#about">Why SAAREP</a></li>
-        <li><a href="#about">Membership</a></li>
-        <li><a href="#about">Partner</a></li>
-        <li><a href="#about">Contact</a></li>
+        <li><a href="#whysaarep">Why SAAREP</a></li>
+        <li><a href="#">Membership</a></li>
+        <li><a href="#">Partner</a></li>
+        <li><a href="#contact">Contact</a></li>
     </>
     return (
         <div className="navbar bg-[#02173C] shadow-lg">
