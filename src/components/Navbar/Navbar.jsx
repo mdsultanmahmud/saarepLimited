@@ -4,7 +4,7 @@ const Navbar = () => {
     const menuList = <>
         <li><a href="#about">About</a></li>
         <li><a href="#whysaarep">Why SAAREP</a></li>
-        <li><a href="#">Membership</a></li>
+        <li><a href="#membership">Membership</a></li>
         <li><a href="#">Partner</a></li>
         <li><a href="#contact">Contact</a></li>
     </>
