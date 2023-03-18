@@ -1,8 +1,21 @@
+import About from "./components/About/About"
+import Banner from "./components/Banner/Banner"
+import Contact from "./components/Contact/Contact"
+import MemberShip from "./components/MemberShip/MemberShip"
+import Navbar from "./components/Navbar/Navbar"
+import Partner from "./components/Partner/Partner"
+import WhySaarep from "./components/WhySaarep/WhySaarep"
 
 function App() {
   return (
     <div >
-      <h1 className="bg-red-400 text-3xl text-white">this is our baeldkfd</h1>
+      <Navbar></Navbar>
+      <Banner></Banner>
+      <About></About>
+      <MemberShip></MemberShip>
+      <WhySaarep></WhySaarep>
+      <Partner></Partner>
+      <Contact></Contact>
     </div>
   )
 }

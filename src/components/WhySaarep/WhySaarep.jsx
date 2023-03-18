@@ -8,4 +8,4 @@ const WhySaarep = () => {
     );
 };
 
-export default WhySaarep;
+export default WhySaarep; 
