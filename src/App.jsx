@@ -11,9 +11,11 @@ function App() {
     <div className="mx-4">
       <Navbar></Navbar>
       <Banner></Banner>
-      {/* <About></About>
-      <MemberShip></MemberShip>
+      <About></About>
       <WhySaarep></WhySaarep>
+      {/* 
+      <MemberShip></MemberShip>
+      
       <Partner></Partner>
       <Contact></Contact> */}
     </div>
