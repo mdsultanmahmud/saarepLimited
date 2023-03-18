@@ -13,14 +13,14 @@ const Banner = () => {
     return (
         <div className='my-8 flex gap-5 flex-col lg:flex-row'>
             <div className='grid grid-cols-4 gap-1 lg:block  w-full lg:w-[200px]'>
-                <img className='rounded mb-2 h-[90px] w-full' src={bg_flag} alt="" />
-                <img className='rounded mb-2 h-[90px] w-full' src={in_flag} alt="" />
-                <img className='rounded mb-2 h-[90px] w-full' src={pk_flag} alt="" />
-                <img className='rounded mb-2 h-[90px] w-full' src={sk_flag} alt="" />
-                <img className='rounded mb-2 h-[90px] w-full' src={ml_flag} alt="" />
-                <img className='rounded mb-2 h-[90px] w-full' src={np_flag} alt="" />
-                <img className='rounded mb-2 h-[90px] w-full' src={vt_flag} alt="" />
-                <img className='rounded mb-2 h-[90px] w-full' src={af_flag} alt="" />
+                <img className='rounded mb-2 h-[56px] w-full' src={bg_flag} alt="" />
+                <img className='rounded mb-2 h-[56px] w-full' src={in_flag} alt="" />
+                <img className='rounded mb-2 h-[56px] w-full' src={pk_flag} alt="" />
+                <img className='rounded mb-2 h-[56px] w-full' src={sk_flag} alt="" />
+                <img className='rounded mb-2 h-[56px] w-full' src={ml_flag} alt="" />
+                <img className='rounded mb-2 h-[56px] w-full' src={np_flag} alt="" />
+                <img className='rounded mb-2 h-[56px] w-full' src={vt_flag} alt="" />
+                <img className='rounded mb-2 h-[56px] w-full' src={af_flag} alt="" />
             </div>
             <div>
                 <CarouselProvider></CarouselProvider>
