@@ -7,6 +7,7 @@ import ml_flag from '../../assets/mv.webp'
 import np_flag from '../../assets/np.webp'
 import vt_flag from '../../assets/bt.webp'
 import af_flag from '../../assets/af.webp'
+import event from '../../assets/events.png'
 import CarouselProvider from '../Carousel/CarouselProvider';
 import './Banner.css'
 const Banner = () => {
@@ -26,9 +27,32 @@ const Banner = () => {
                 <CarouselProvider></CarouselProvider>
             </div>
             <div className='w-full lg:w-[200px]'>
-                <h1 className='font-bold text-xl'>Here is our Events</h1>
-                <p className='my-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
-                <a className='link text-green-500' href="">click me to show something</a>
+                <h1 className='font-bold text-xl text-white mb-4'>Upcoming Events</h1>
+                <div className='flex items-center gap-3 bg-[#02173C] p-2 mb-2 hover:opacity-70'>
+                    <img src={event} className="w-[25px] h-[25px]"/>
+                    <p className=''>here is event name</p>
+                </div>
+                <div className='flex items-center gap-3 bg-[#02173C] p-2 mb-2 hover:opacity-70'>
+                    <img src={event} className="w-[25px] h-[25px]"/>
+                    <p className=''>here is event name</p>
+                </div>
+                <div className='flex items-center gap-3 bg-[#02173C] p-2 mb-2 hover:opacity-70'>
+                    <img src={event} className="w-[25px] h-[25px]"/>
+                    <p className=''>here is event name</p>
+                </div>
+                <div className='flex items-center gap-3 bg-[#02173C] p-2 mb-2 hover:opacity-70'>
+                    <img src={event} className="w-[25px] h-[25px]"/>
+                    <p className=''>here is event name</p>
+                </div>
+                <div className='flex items-center gap-3 bg-[#02173C] p-2 mb-2 hover:opacity-70'>
+                    <img src={event} className="w-[25px] h-[25px]"/>
+                    <p className=''>here is event name</p>
+                </div>
+                <div className='flex items-center gap-3 bg-[#02173C] p-2 mb-2 hover:opacity-70'>
+                    <img src={event} className="w-[25px] h-[25px]"/>
+                    <p className=''>here is event name</p>
+                </div>
+                {/* <a className='link text-green-500' href="">click me to show something</a> */}
             </div>
         </div>
     );
