@@ -26,7 +26,7 @@ const Banner = () => {
             <div>
                 <CarouselProvider></CarouselProvider>
             </div>
-            <div className='w-full lg:w-[200px]'>
+            <div className='w-full lg:w-[200px] bg-[#02173C] opacity-30'>
                 <h1 className='font-bold text-xl text-white mb-4'>Upcoming Events</h1>
                 <div className='flex items-center gap-3 bg-[#02173C] p-2 mb-2 hover:opacity-70'>
                     <img src={event} className="w-[25px] h-[25px]"/>
@@ -52,7 +52,7 @@ const Banner = () => {
                     <img src={event} className="w-[25px] h-[25px]"/>
                     <p className=''>here is event name</p>
                 </div>
-                <a className='link text-green-500' href="">click me to show something</a>
+                {/* <a className='link text-green-500' href="">click me to show something</a> */}
             </div>
         </div>
     );
