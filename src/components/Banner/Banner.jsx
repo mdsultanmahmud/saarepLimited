@@ -52,7 +52,7 @@ const Banner = () => {
                     <img src={event} className="w-[25px] h-[25px]"/>
                     <p className=''>here is event name</p>
                 </div>
-                {/* <a className='link text-green-500' href="">click me to show something</a> */}
+                <a className='link text-green-500' href="">click me to show something</a>
             </div>
         </div>
     );
