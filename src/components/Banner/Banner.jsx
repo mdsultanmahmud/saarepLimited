@@ -14,14 +14,15 @@ const Banner = () => {
     return (
         <div className='my-8 flex gap-5 flex-col lg:flex-row'>
             <div className='grid grid-cols-4 gap-1 lg:block  w-full lg:w-[200px]'>
+                <img className='rounded mb-2 h-[56px] w-full' src={af_flag} alt="" />
                 <img className='rounded mb-2 h-[56px] w-full' src={bg_flag} alt="" />
                 <img className='rounded mb-2 h-[56px] w-full' src={in_flag} alt="" />
-                <img className='rounded mb-2 h-[56px] w-full' src={pk_flag} alt="" />
-                <img className='rounded mb-2 h-[56px] w-full' src={sk_flag} alt="" />
                 <img className='rounded mb-2 h-[56px] w-full' src={ml_flag} alt="" />
                 <img className='rounded mb-2 h-[56px] w-full' src={np_flag} alt="" />
+                <img className='rounded mb-2 h-[56px] w-full' src={pk_flag} alt="" />
+                <img className='rounded mb-2 h-[56px] w-full' src={sk_flag} alt="" />
                 <img className='rounded mb-2 h-[56px] w-full' src={vt_flag} alt="" />
-                <img className='rounded mb-2 h-[56px] w-full' src={af_flag} alt="" />
+
             </div>
             <div>
                 <CarouselProvider></CarouselProvider>
@@ -29,27 +30,27 @@ const Banner = () => {
             <div className='w-full lg:w-[200px]'>
                 <h1 className='font-bold text-xl text-white mb-2'>Upcoming Events</h1>
                 <div className='flex items-center gap-3 bg-[#02173C] p-3 mb-2 hover:opacity-70'>
-                    <img src={event} className="w-[25px] h-[25px]"/>
+                    <img src={event} className="w-[25px] h-[25px]" />
                     <p className=''>here is event name</p>
                 </div>
                 <div className='flex items-center gap-3 bg-[#02173C] p-3 mb-2 hover:opacity-70'>
-                    <img src={event} className="w-[25px] h-[25px]"/>
+                    <img src={event} className="w-[25px] h-[25px]" />
                     <p className=''>here is event name</p>
                 </div>
                 <div className='flex items-center gap-3 bg-[#02173C] p-3 mb-2 hover:opacity-70'>
-                    <img src={event} className="w-[25px] h-[25px]"/>
+                    <img src={event} className="w-[25px] h-[25px]" />
                     <p className=''>here is event name</p>
                 </div>
                 <div className='flex items-center gap-3 bg-[#02173C] p-3 mb-2 hover:opacity-70'>
-                    <img src={event} className="w-[25px] h-[25px]"/>
+                    <img src={event} className="w-[25px] h-[25px]" />
                     <p className=''>here is event name</p>
                 </div>
                 <div className='flex items-center gap-3 bg-[#02173C] p-3 mb-2 hover:opacity-70'>
-                    <img src={event} className="w-[25px] h-[25px]"/>
+                    <img src={event} className="w-[25px] h-[25px]" />
                     <p className=''>here is event name</p>
                 </div>
                 <div className='flex items-center gap-3 bg-[#02173C] p-3 mb-2 hover:opacity-70'>
-                    <img src={event} className="w-[25px] h-[25px]"/>
+                    <img src={event} className="w-[25px] h-[25px]" />
                     <p className=''>here is event name</p>
                 </div>
                 {/* <a className='link text-green-500' href="">click me to show something</a> */}

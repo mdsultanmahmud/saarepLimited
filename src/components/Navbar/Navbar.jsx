@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../../assets/logo.jpg'
 const Navbar = () => {
     const menuList = <>
-        <li><a href="#about">About</a></li>
+        <li><a href="#about">About Us</a></li>
         <li><a href="#whysaarep">Why SAAREP</a></li>
         <li><a href="#membership">Membership</a></li>
         <li><a href="#partner">Partner</a></li>
@@ -19,7 +19,9 @@ const Navbar = () => {
                        {menuList}
                     </ul>
                 </div>
-                <a href='/'><img src={logo} className="w-[150px]" alt="" /></a>
+                <a href='/'><img src={logo} className="w-[150px]" alt="" />
+                    <h1 className='hidden md:block text-sm'>South Asian Association of Real Estate Professionals</h1>
+                </a>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
