@@ -1,22 +1,41 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from '../../assets/logo.jpg'
+import { FaBars } from 'react-icons/fa'
+import { ImCross } from 'react-icons/im'
 const Navbar = () => {
+    const [showDrop, setShowDrop] = useState(false)
     const menuList = <>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#whysaarep">Why SAAREP</a></li>
-        <li><a href="#membership">Membership</a></li>
-        <li><a href="#partner">Partner</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li onClick={() => setShowDrop(false)}><a href="#about">About Us</a></li>
+        <li onClick={() => setShowDrop(false)}><a href="#whysaarep">Why SAAREP</a></li>
+        <li onClick={() => setShowDrop(false)}><a href="#membership">Membership</a></li>
+        <li onClick={() => setShowDrop(false)}><a href="#partner">Partner</a></li>
+        <li onClick={() => setShowDrop(false)}><a href="#contact">Contact</a></li>
     </>
+    useEffect(() => {
+        const handleIcon = () => {
+            if (!event.target.className.baseVal) {
+                setShowDrop(false)
+            }
+        }
+        document.addEventListener("click", handleIcon)
+        return () => {
+            document.removeEventListener('click', handleIcon);
+        };
+    }, [!showDrop])
     return (
-        <div className="navbar bg-[#02173C] shadow-lg">
+        <div className="navbar bg-[#02173C] shadow-lg fixed top-0 left-0 z-10 mt-[-2px]">
             <div className="navbar-start">
                 <div className="dropdown">
-                    <label tabIndex={0} className="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    <label tabIndex={0} className="btn btn-ghost lg:hidden fixed top-5 right-3">
+                        {
+                            !showDrop ?
+                                <FaBars className='logo' onClick={() => setShowDrop(true)} size={24} />
+                                :
+                                <ImCross className='logo' onClick={() => setShowDrop(false)} size={24} />
+                        }
                     </label>
-                    <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-[#02173C] rounded-box w-52">
-                       {menuList}
+                    <ul tabIndex={0} className={`menu menu-compact dropdown-content p-2 shadow bg-[#02173C] rounded-box mt-7 ${!showDrop && 'hidden'}`} style={{ width: "100vw" }}>
+                        {menuList}
                     </ul>
                 </div>
                 <a href='/'><img src={logo} className="w-[150px]" alt="" />
