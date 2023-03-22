@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="footer  grid grid-cols-1 md:grid-cols-3 p-10 md:px-20 bg-[#02173C] text-neutral-content">
             <div>
                 <img className='w-1/4' src={logo} alt="" />
-                <p className='text-white'>&copy; copyright@SAARE</p>
+                <p className='text-white'>&copy; copyright@SAAREP</p>
             </div>
             <div>
                 <span className="footer-title text-white text-xl">Quick Links</span>
