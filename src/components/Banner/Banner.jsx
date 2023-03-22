@@ -13,15 +13,15 @@ import './Banner.css'
 const Banner = () => {
     return (
         <div className='my-8 flex gap-5 flex-col lg:flex-row'>
-            <div className='grid grid-cols-4 gap-1 lg:block  w-full lg:w-[200px]'>
-                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full' src={af_flag} alt="" />
-                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full' src={bg_flag} alt="" />
-                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full' src={in_flag} alt="" />
-                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full' src={ml_flag} alt="" />
-                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full' src={np_flag} alt="" />
-                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full' src={pk_flag} alt="" />
-                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full' src={sk_flag} alt="" />
-                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full' src={vt_flag} alt="" />
+            <div className='grid grid-cols-4 gap-1 lg:block  w-full lg:w-[200px] md:place-items-center'>
+                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full md:w-4/5 lg:w-full' src={af_flag} alt="" />
+                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full md:w-4/5 lg:w-full' src={bg_flag} alt="" />
+                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full md:w-4/5 lg:w-full' src={in_flag} alt="" />
+                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full md:w-4/5 lg:w-full' src={ml_flag} alt="" />
+                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full md:w-4/5 lg:w-full' src={np_flag} alt="" />
+                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full md:w-4/5 lg:w-full' src={pk_flag} alt="" />
+                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full md:w-4/5 lg:w-full' src={sk_flag} alt="" />
+                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full md:w-4/5 lg:w-full' src={vt_flag} alt="" />
 
             </div>
             <div>
