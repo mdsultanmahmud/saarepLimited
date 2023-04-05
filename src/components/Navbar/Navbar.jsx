@@ -5,11 +5,11 @@ import { ImCross } from 'react-icons/im'
 const Navbar = () => {
     const [showDrop, setShowDrop] = useState(false)
     const menuList = <>
-        <li onClick={() => setShowDrop(false)}><a href="#about">About Us</a></li>
-        <li onClick={() => setShowDrop(false)}><a href="#whysaarep">Why SAAREP</a></li>
-        <li onClick={() => setShowDrop(false)}><a href="#membership">Membership</a></li>
-        <li onClick={() => setShowDrop(false)}><a href="#partner">Partner</a></li>
-        <li onClick={() => setShowDrop(false)}><a href="#contact">Contact</a></li>
+        <li onClick={() => setShowDrop(false)}><a  href="#about">About Us</a></li>
+        <li onClick={() => setShowDrop(false)}><a  href="#whysaarep">Why SAAREP</a></li>
+        <li onClick={() => setShowDrop(false)}><a  href="#membership">Membership</a></li>
+        <li onClick={() => setShowDrop(false)}><a  href="#partner">Partner</a></li>
+        <li onClick={() => setShowDrop(false)}><a  href="#contact">Contact</a></li>
     </>
     useEffect(() => {
         const handleIcon = () => {
