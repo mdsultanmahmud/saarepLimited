@@ -12,56 +12,52 @@ import CarouselProvider from '../Carousel/CarouselProvider';
 import './Banner.css'
 const Banner = () => {
     return (
-        <div className='my-8 flex gap-5 flex-col lg:flex-row mt-20'>
+        <div className='my-8 flex gap-5 flex-col lg:flex-row mt-20 md:mt-32'>
             <div className='grid grid-cols-4 gap-1 lg:block  w-full lg:w-[200px] md:place-items-center'>
-                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full md:w-4/5 lg:w-full' src={af_flag} alt="" />
-                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full md:w-4/5 lg:w-full' src={bg_flag} alt="" />
-                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full md:w-4/5 lg:w-full' src={in_flag} alt="" />
-                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full md:w-4/5 lg:w-full' src={ml_flag} alt="" />
-                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full md:w-4/5 lg:w-full' src={np_flag} alt="" />
-                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full md:w-4/5 lg:w-full' src={pk_flag} alt="" />
-                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full md:w-4/5 lg:w-full' src={sk_flag} alt="" />
-                <img className='rounded mb-2 h-[50px] md:h-[80px] w-full md:w-4/5 lg:w-full' src={vt_flag} alt="" />
+                <img className='rounded mb-2 h-[50px] md:h-[68px] w-full md:w-3/5 lg:mx-auto' src={af_flag} alt="" />
+                <img className='rounded mb-2 h-[50px] md:h-[68px] w-full md:w-3/5 lg:mx-auto' src={bg_flag} alt="" />
+                <img className='rounded mb-2 h-[50px] md:h-[68px] w-full md:w-3/5 lg:mx-auto' src={in_flag} alt="" />
+                <img className='rounded mb-2 h-[50px] md:h-[68px] w-full md:w-3/5 lg:mx-auto' src={ml_flag} alt="" />
+                <img className='rounded mb-2 h-[50px] md:h-[68px] w-full md:w-3/5 lg:mx-auto' src={np_flag} alt="" />
+                <img className='rounded mb-2 h-[50px] md:h-[68px] w-full md:w-3/5 lg:mx-auto' src={pk_flag} alt="" />
+                <img className='rounded mb-2 h-[50px] md:h-[68px] w-full md:w-3/5 lg:mx-auto' src={sk_flag} alt="" />
+                <img className='rounded mb-2 h-[50px] md:h-[68px] w-full md:w-3/5 lg:mx-auto' src={vt_flag} alt="" />
 
             </div>
             <div>
                 <CarouselProvider></CarouselProvider>
             </div>
             <div className='w-full lg:w-[200px]'>
-                <h1 className='font-bold text-xl text-black mb-8'>Upcoming Events</h1>
-                <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
-                    <img src={event} className="w-[25px] h-[25px]" />
-                    <p className=''>here is event name</p>
+                <div>
+                    <h1 className='font-bold text-xl text-black mb-8'>Upcoming Events</h1>
+                    <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
+                        <img src={event} className="w-[25px] h-[25px]" />
+                        <p className=''>here is event name</p>
+                    </div>
+                    <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
+                        <img src={event} className="w-[25px] h-[25px]" />
+                        <p className=''>here is event name</p>
+                    </div>
+                    <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
+                        <img src={event} className="w-[25px] h-[25px]" />
+                        <p className=''>here is event name</p>
+                    </div>
                 </div>
-                <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
-                    <img src={event} className="w-[25px] h-[25px]" />
-                    <p className=''>here is event name</p>
+                <div>
+                    <h1 className='font-bold text-xl text-black my-6'>Previous Events</h1>
+                    <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
+                        <img src={event} className="w-[25px] h-[25px]" />
+                        <p className=''>here is event name</p>
+                    </div>
+                    <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
+                        <img src={event} className="w-[25px] h-[25px]" />
+                        <p className=''>here is event name</p>
+                    </div>
+                    <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
+                        <img src={event} className="w-[25px] h-[25px]" />
+                        <p className=''>here is event name</p>
+                    </div>
                 </div>
-                <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
-                    <img src={event} className="w-[25px] h-[25px]" />
-                    <p className=''>here is event name</p>
-                </div>
-                <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
-                    <img src={event} className="w-[25px] h-[25px]" />
-                    <p className=''>here is event name</p>
-                </div>
-                <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
-                    <img src={event} className="w-[25px] h-[25px]" />
-                    <p className=''>here is event name</p>
-                </div>
-                <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
-                    <img src={event} className="w-[25px] h-[25px]" />
-                    <p className=''>here is event name</p>
-                </div>
-                <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
-                    <img src={event} className="w-[25px] h-[25px]" />
-                    <p className=''>here is event name</p>
-                </div>
-                <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
-                    <img src={event} className="w-[25px] h-[25px]" />
-                    <p className=''>here is event name</p>
-                </div>
-                {/* <a className='link text-green-500' href="">click me to show something</a> */}
             </div>
         </div>
     );

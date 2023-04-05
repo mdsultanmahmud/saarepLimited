@@ -39,7 +39,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <a href='/'><img src={logo} className="w-[150px]" alt="" />
-                    <h1 className='hidden md:block text-sm'>South Asian Association of Real Estate Professionals</h1>
+                    <h1 className='hidden md:block text-sm'>South Asian Association <br /> of Real Estate Professionals</h1>
                 </a>
             </div>
             <div className="navbar-end hidden lg:flex">
