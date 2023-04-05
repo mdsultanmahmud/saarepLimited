@@ -23,7 +23,7 @@ const Navbar = () => {
         };
     }, [!showDrop])
     return (
-        <div className="navbar bg-[#02173C] shadow-lg fixed top-0 left-0 z-10 mt-[-2px]">
+        <div className="navbar bg-base-200 shadow-xl fixed top-0 left-0 z-10 mt-[-2px]">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden fixed top-5 right-3">
@@ -34,7 +34,7 @@ const Navbar = () => {
                                 <ImCross className='logo' onClick={() => setShowDrop(false)} size={24} />
                         }
                     </label>
-                    <ul tabIndex={0} className={`menu menu-compact dropdown-content p-2 shadow bg-[#02173C] rounded-box mt-7 ${!showDrop && 'hidden'}`} style={{ width: "100vw" }}>
+                    <ul tabIndex={0} className={`menu menu-compact dropdown-content p-2 shadow bg-gray-600 text-white rounded-box mt-7 ${!showDrop && 'hidden'}`} style={{ width: "100vw" }}>
                         {menuList}
                     </ul>
                 </div>

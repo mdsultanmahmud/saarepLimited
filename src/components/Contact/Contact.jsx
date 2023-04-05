@@ -3,7 +3,7 @@ import ScrollToTop from 'react-scroll-to-top';
 import './Contact.css'
 const Contact = () => {
     return (
-        <div id='contact' className='p-4 bg-[#010E25] my-8'>
+        <div id='contact' className='p-4 bg-gray-600 my-8'>
             <h1 className='text-white uppercase'>Get  in touch</h1>
             <h2 className='text-center text-white text-2xl uppercase'>Contact.</h2>
             <form className='md:w-1/2 mx-auto'>

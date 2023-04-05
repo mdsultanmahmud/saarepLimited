@@ -28,36 +28,36 @@ const Banner = () => {
                 <CarouselProvider></CarouselProvider>
             </div>
             <div className='w-full lg:w-[200px]'>
-                <h1 className='font-bold text-xl text-white mb-8'>Upcoming Events</h1>
-                <div className='flex items-center gap-3 bg-[#02173C] p-3 mb-2 hover:opacity-70'>
+                <h1 className='font-bold text-xl text-black mb-8'>Upcoming Events</h1>
+                <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
                     <img src={event} className="w-[25px] h-[25px]" />
                     <p className=''>here is event name</p>
                 </div>
-                <div className='flex items-center gap-3 bg-[#02173C] p-3 mb-2 hover:opacity-70'>
+                <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
                     <img src={event} className="w-[25px] h-[25px]" />
                     <p className=''>here is event name</p>
                 </div>
-                <div className='flex items-center gap-3 bg-[#02173C] p-3 mb-2 hover:opacity-70'>
+                <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
                     <img src={event} className="w-[25px] h-[25px]" />
                     <p className=''>here is event name</p>
                 </div>
-                <div className='flex items-center gap-3 bg-[#02173C] p-3 mb-2 hover:opacity-70'>
+                <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
                     <img src={event} className="w-[25px] h-[25px]" />
                     <p className=''>here is event name</p>
                 </div>
-                <div className='flex items-center gap-3 bg-[#02173C] p-3 mb-2 hover:opacity-70'>
+                <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
                     <img src={event} className="w-[25px] h-[25px]" />
                     <p className=''>here is event name</p>
                 </div>
-                <div className='flex items-center gap-3 bg-[#02173C] p-3 mb-2 hover:opacity-70'>
+                <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
                     <img src={event} className="w-[25px] h-[25px]" />
                     <p className=''>here is event name</p>
                 </div>
-                <div className='flex items-center gap-3 bg-[#02173C] p-3 mb-2 hover:opacity-70'>
+                <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
                     <img src={event} className="w-[25px] h-[25px]" />
                     <p className=''>here is event name</p>
                 </div>
-                <div className='flex items-center gap-3 bg-[#02173C] p-3 mb-2 hover:opacity-70'>
+                <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
                     <img src={event} className="w-[25px] h-[25px]" />
                     <p className=''>here is event name</p>
                 </div>
