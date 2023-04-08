@@ -2,13 +2,12 @@ import React from 'react';
 import caroselOne from '../../assets/carousel-1.jpg'
 import caroselTwo from '../../assets/carousel-2.jpg'
 import caroselThree from '../../assets/carousel-3.jpg'
-import caroselFour from '../../assets/carousel-4.jpg'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './CarouselProvider.css'
 const CarouselProvider = () => {
     return (
-        <Carousel autoPlay infiniteLoop>
+        <Carousel autoPlay infiniteLoop interval={5000}>
             <div className='h-[400px] md:h-[505px] lg:h-[605px]'>
                 <div className='relative h-full'>
                     <img src={caroselOne} className="h-full" />

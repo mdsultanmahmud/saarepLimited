@@ -5,11 +5,11 @@ import { ImCross } from 'react-icons/im'
 const Navbar = () => {
     const [showDrop, setShowDrop] = useState(false)
     const menuList = <>
-        <li onClick={() => setShowDrop(false)}><a  href="#about">About Us</a></li>
-        <li onClick={() => setShowDrop(false)}><a  href="#whysaarep">Why SAAREP</a></li>
-        <li onClick={() => setShowDrop(false)}><a  href="#membership">Membership</a></li>
-        <li onClick={() => setShowDrop(false)}><a  href="#partner">Partner</a></li>
-        <li onClick={() => setShowDrop(false)}><a  href="#contact">Contact</a></li>
+        <li onClick={() => setShowDrop(false)}><a href="#about">About Us</a></li>
+        <li onClick={() => setShowDrop(false)}><a href="#whysaarep">Why SAAREP</a></li>
+        <li onClick={() => setShowDrop(false)}><a href="#membership">Membership</a></li>
+        <li onClick={() => setShowDrop(false)}><a href="#partner">Partner</a></li>
+        <li onClick={() => setShowDrop(false)}><a href="#contact">Contact</a></li>
     </>
     useEffect(() => {
         const handleIcon = () => {
@@ -39,8 +39,11 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <a href='/'><img src={logo} className="w-[150px]" alt="" />
-                    <h1 className='hidden md:block text-sm'>South Asian Association of Real Estate Professionals</h1>
+                    <h1 className='hidden md:block lg:hidden text-sm'>South Asian Association of Real Estate Professionals</h1>
                 </a>
+            </div>
+            <div className='navbar-center hidden lg:block'>
+                <h1 className='text-sm'>South Asian Association of Real Estate Professionals</h1>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

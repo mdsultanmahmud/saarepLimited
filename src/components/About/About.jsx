@@ -5,6 +5,7 @@ import atul from '../../assets/atul gupta_photo.jpeg'
 import Modal from '../Modal/Modal';
 const About = () => {
     const [name, setName] = useState('')
+    const [modalStatus, setModalStatus] = useState(false)
     return (
         <div>
             <h1 className='text-center text-black text-2xl font-bold my-4 uppercase'>About Us</h1>
@@ -14,7 +15,7 @@ const About = () => {
                     <div>
                         <h3 className='font-bold capitalize text-gray-500'>Lavina Samtani</h3>
                         <h4 className='font-bold capitalize text-gray-500'>Member Relations</h4>
-                        <button onClick={() =>setName('Lavina Samtani')}  className='my-4'><label htmlFor="see-bio-modal" className="px-6 py-2 rounded text-white uppercase text-sm bg-gray-800 hover:bg-gray-900 font-bold cursor-pointer">view bio</label></button>
+                        <button onClick={() =>setName('Lavina Samtani')}  className='my-4'><label onClick={() => setModalStatus(true)} htmlFor="see-bio-modal" className="px-6 py-2 rounded text-white uppercase text-sm bg-gray-800 hover:bg-gray-900 font-bold cursor-pointer">view bio</label></button>
                     </div>
                 </div>
                 <div className='rounded shadow-lg p-4 text-center'>
@@ -22,7 +23,7 @@ const About = () => {
                     <div>
                         <h3 className='font-bold capitalize text-gray-500'>Tanvir Aziz</h3>
                         <h4 className='font-bold capitalize text-gray-500'>President</h4>
-                        <button onClick={() =>setName('Tanvir Aziz')} className='my-4'><label htmlFor="see-bio-modal" className="px-6 py-2 rounded text-white uppercase text-sm bg-gray-800 hover:bg-gray-900 font-bold cursor-pointer">view bio</label></button>
+                        <button onClick={() =>setName('Tanvir Aziz')} className='my-4'><label onClick={() => setModalStatus(true)} htmlFor="see-bio-modal" className="px-6 py-2 rounded text-white uppercase text-sm bg-gray-800 hover:bg-gray-900 font-bold cursor-pointer">view bio</label></button>
                     </div>
                 </div>
                 <div className='rounded shadow-lg p-4 text-center'>
@@ -30,13 +31,13 @@ const About = () => {
                     <div>
                         <h3 className='font-bold capitalize text-gray-500'>Atul Gulta</h3>
                         <h4 className='font-bold capitalize text-gray-500'>Treasurer</h4>
-                        <button onClick={() =>setName('Atul Gulta')} className='my-4'><label htmlFor="see-bio-modal" className="px-6 py-2 rounded text-white uppercase text-sm bg-gray-800 hover:bg-gray-900 font-bold cursor-pointer">view bio</label></button>
+                        <button onClick={() =>setName('Atul Gulta')} className='my-4'><label onClick={() => setModalStatus(true)} htmlFor="see-bio-modal" className="px-6 py-2 rounded text-white uppercase text-sm bg-gray-800 hover:bg-gray-900 font-bold cursor-pointer">view bio</label></button>
                     </div>
 
                 </div>
             </div>
             {
-                name.length>0 && <Modal names = {name}></Modal>
+                name.length>0 && <Modal names = {{name, modalStatus, setModalStatus}}></Modal>
             }
            
         </div>
