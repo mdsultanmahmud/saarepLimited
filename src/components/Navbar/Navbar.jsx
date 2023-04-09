@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import logo from '../../assets/logo.jpg'
 import { FaBars } from 'react-icons/fa'
 import { ImCross } from 'react-icons/im'
+import './Navbar.css'
 const Navbar = () => {
     const [showDrop, setShowDrop] = useState(false)
     const menuList = <>
@@ -23,7 +24,7 @@ const Navbar = () => {
         };
     }, [!showDrop])
     return (
-        <div className="navbar bg-base-200 shadow-xl fixed top-0 left-0 z-10 mt-[-2px]">
+        <div className="navbar bg-[#FEF5E7] shadow-2xl fixed top-0 left-0 z-10 mt-[-2px]">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden fixed top-5 right-3">
@@ -46,7 +47,7 @@ const Navbar = () => {
                 <h1 className='text-sm'>South Asian Association of Real Estate Professionals</h1>
             </div>
             <div className="navbar-end hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu menu-horizontal px-1 menu-list">
                     {menuList}
                 </ul>
             </div>

@@ -12,7 +12,7 @@ import CarouselProvider from '../Carousel/CarouselProvider';
 import './Banner.css'
 const Banner = () => {
     return (
-        <div className='my-8 flex gap-5 flex-col lg:flex-row mt-20 md:mt-32'>
+        <div className='my-8 flex gap-5 flex-col lg:flex-row pt-20'>
             <div className='grid grid-cols-4 gap-1 lg:block  w-full lg:w-[200px] md:place-items-center'>
                 <img className='rounded mb-2 h-[50px] md:h-[68px] w-full md:w-3/5 lg:mx-auto' src={af_flag} alt="" />
                 <img className='rounded mb-2 h-[50px] md:h-[68px] w-full md:w-3/5 lg:mx-auto' src={bg_flag} alt="" />
