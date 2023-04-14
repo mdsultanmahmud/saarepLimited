@@ -52,7 +52,7 @@ const About = () => {
                             <img src={user.img} alt="" className='rounded-full mb-3 h-[220px] w-[220px] mx-auto' />
                             <div>
                                 <h3 className='font-bold capitalize text-gray-500'>{user.name}</h3>
-                                <h4 className='font-bold capitalize text-gray-500'>{name.position}</h4>
+                                <h4 className='font-bold capitalize text-gray-500'>{user.position}</h4>
                                 <button onClick={() => setName(`${user.name}`)} className='my-4'><label onClick={() => setModalStatus(true)} htmlFor="see-bio-modal" className="px-6 py-2 rounded text-white uppercase text-sm bg-gray-800 hover:bg-gray-900 font-bold cursor-pointer">view bio</label></button>
                             </div>
                         </div>

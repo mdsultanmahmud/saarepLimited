@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import logo from '../../assets/logo.jpg'
 import { FaBars } from 'react-icons/fa'
 import { ImCross } from 'react-icons/im'
-import './Navbar.css'
 const Navbar = () => {
     const [showDrop, setShowDrop] = useState(false)
     const menuList = <>

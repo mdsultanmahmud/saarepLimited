@@ -10,6 +10,7 @@ import af_flag from '../../assets/af.webp'
 import event from '../../assets/events.png'
 import CarouselProvider from '../Carousel/CarouselProvider';
 import './Banner.css'
+import PrevEvents from '../PrevEvents/PrevEvents';
 const Banner = () => {
     return (
         <div className='my-8 flex gap-5 flex-col lg:flex-row pt-20'>
@@ -29,11 +30,11 @@ const Banner = () => {
             </div>
             <div className='w-full lg:w-[200px]'>
                 <div>
-                    <h1 className='font-bold text-xl text-black mb-8'>Upcoming Events</h1>
+                    <h1 className='font-bold text-xl text-black mb-6'>Upcoming Events</h1>
                     <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
                         <img src={event} className="w-[25px] h-[25px]" />
                         <p className=''>here is event name</p>
-                    </div>
+                    </div> 
                     <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
                         <img src={event} className="w-[25px] h-[25px]" />
                         <p className=''>here is event name</p>
@@ -45,18 +46,7 @@ const Banner = () => {
                 </div>
                 <div>
                     <h1 className='font-bold text-xl text-black my-6'>Previous Events</h1>
-                    <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
-                        <img src={event} className="w-[25px] h-[25px]" />
-                        <p className=''>here is event name</p>
-                    </div>
-                    <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
-                        <img src={event} className="w-[25px] h-[25px]" />
-                        <p className=''>here is event name</p>
-                    </div>
-                    <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
-                        <img src={event} className="w-[25px] h-[25px]" />
-                        <p className=''>here is event name</p>
-                    </div>
+                    <PrevEvents></PrevEvents>
                 </div>
             </div>
         </div>

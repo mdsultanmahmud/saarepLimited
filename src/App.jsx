@@ -17,7 +17,7 @@ function App() {
       <About></About>
       <WhySaarep></WhySaarep>
       <MemberShip></MemberShip>
-      <Partner></Partner>
+      {/* <Partner></Partner> */}
       <Contact></Contact>
       <Footer></Footer>
     </div>
