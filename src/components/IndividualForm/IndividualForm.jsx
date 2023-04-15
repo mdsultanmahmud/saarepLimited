@@ -25,27 +25,22 @@ const IndividualForm = () => {
                     <input className='text-white p-2 rounded w-full bg-black border-none outline-none' type="number" name="phone" id="phone" placeholder="Enter Your Phone Number" />
                 </div>
                 <div className='mb-2'>
-                    <label className='text-white mb-2' htmlFor="occupation">Occupation</label>
+                    <label className='text-white mb-2' htmlFor="occupation">Your Occupation</label>
                     <br />
                     <input className='text-white p-2 rounded w-full bg-black border-none outline-none' type="text" name="occupation" id="occupation" placeholder="Enter Your Phone Number" />
-                </div>
-                <div className='mb-2'>
-                    <label className='text-white mb-2' htmlFor="address">Address</label>
-                    <br />
-                    <input className='text-white p-2 rounded w-full bg-black border-none outline-none' type="text" name="address" id="address" placeholder="Line 1" />
-                    <input className='text-white p-2 rounded w-full bg-black border-none outline-none mt-2' type="text"  placeholder="Line 2" />
                 </div>
                 <div className='mb-2'>
                     <label className='text-white mb-2' htmlFor="com_name">Company Name</label>
                     <br />
                     <input className='text-white p-2 rounded w-full bg-black border-none outline-none' type="text" name="com_name" id="com_name" placeholder="Enter Your Company Name" />
-                </div>  
-                <div className='mb-2'>
-                    <label className='text-white mb-2' htmlFor="com_name">Associated</label>
-                    <br />
-                    <input className='text-white p-2 rounded w-full bg-black border-none outline-none' type="text" name="com_name" id="com_name" placeholder="What is Your Role" />
                 </div>
-                
+                <div className='mb-2'>
+                    <label className='text-white mb-2' htmlFor="address">Address</label>
+                    <br />
+                    <input className='text-white p-2 rounded w-full bg-black border-none outline-none' type="text" name="address" id="address" placeholder="Line 1" />
+                    <input className='text-white p-2 rounded w-full bg-black border-none outline-none mt-2' type="text" placeholder="Line 2" />
+                </div>
+
                 <button type='submit' className='px-8 py-4 font-bold text-white bg-black hover:bg-red-300 hover:text-black mb-8 mt-3 mx-auto block hover:opacity-80 le'>JOIN</button>
             </form>
         </div>

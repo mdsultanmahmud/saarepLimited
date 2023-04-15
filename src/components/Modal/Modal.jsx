@@ -7,6 +7,8 @@ const Modal = ({ names }) => {
         {
             name: "Lavina Samtani",
             title: "Member Relations",
+            email:'',
+            comWebsite:'',
             profession: '',
             company: '',
             role: '',
@@ -15,6 +17,8 @@ const Modal = ({ names }) => {
         {
             name: "Tanvir Aziz",
             title: "President",
+            email:'tanvirA@atoztitle.com',
+            comWebsite:'atoztitle.com',
             profession: 'Founder',
             company: 'AtoZ Title and Settlement',
             role: '',
@@ -23,6 +27,8 @@ const Modal = ({ names }) => {
         {
             name: "Atul Gulta",
             title: "Treasurer",
+            email:'',
+            comWebsite:'',
             profession: '',
             company: '',
             role: '',
@@ -31,6 +37,8 @@ const Modal = ({ names }) => {
         {
             name: "Ayesha Ayubi",
             title: "Director - Business Relations",
+            email:'ayesha.ayubi@penfedrealty.com',
+            comWebsite:'',
             profession: '',
             company: '',
             role: '',
@@ -39,6 +47,8 @@ const Modal = ({ names }) => {
         {
             name: "Anita George",
             title: "Cultural Director",
+            email:'george.anita@rocketmail.com',
+            comWebsite:'',
             profession: 'Profession Lender',
             company: 'Company Titan Lending',
             role: 'Role Sr loan Officer and Business Development',
@@ -47,6 +57,8 @@ const Modal = ({ names }) => {
         {
             name: "Nick Rowan",
             title: "Education Director",
+            email:'nick@trademarkrealtymd.com',
+            comWebsite:'',
             profession: 'Real Estate Consultant',
             company: 'Trademark Realty',
             role: '',
@@ -83,9 +95,11 @@ const Modal = ({ names }) => {
                     <h3 className="text-lg font-bold ">Read about {person.name}</h3>
                     <p className='py-4 text-justify'>{person.about}</p>
                     <div>
-                        <p><span className='uppercase'>profession: </span>{person.profession}</p>
-                        <p><span className='uppercase'>Company: </span>{person.company}</p>
-                        <p><span className='uppercase'>Role: </span>{person.role}</p>
+                        <p>{person?.profession}</p>
+                        <p>{person?.company}</p>
+                        <p>{person?.role}</p>
+                        <p>{person?.email}</p>
+                        <a href={`https://${person?.comWebsite}`}>{person?.comWebsite}</a>
                     </div>
                 </div>
 

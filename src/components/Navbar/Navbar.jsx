@@ -38,12 +38,12 @@ const Navbar = () => {
                         {menuList}
                     </ul>
                 </div>
-                <a href='/'><img src={logo} className="w-[150px]" alt="" />
-                    <h1 className='hidden md:block lg:hidden text-sm'>South Asian Association of Real Estate Professionals</h1>
+                <a href='/'>
+                    <img src={logo} className="w-[80px] md:w-[150px]" alt="" />
                 </a>
             </div>
-            <div className='navbar-center hidden lg:block'>
-                <h1 className='text-sm'>South Asian Association of Real Estate Professionals</h1>
+            <div className='navbar-center mr-16 md:mr-32 lg:mr-16 mt-4'>
+                <h1 className='text-[8px] md:text-sm'>South Asian Association of Real Estate Professionals</h1>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 menu-list">

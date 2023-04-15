@@ -5,11 +5,11 @@ const Vision = () => {
         <div className='my-10 p-4 text-center'>
             <div className='mb-4'>
                 <h1 className='font-bold uppercase text-black text-4xl mb-3'>Mission</h1>
-                <p className='text-justify'>SAAREP’s mission is to empower South Asian Community through establishing an environment where everyone can grow and voice their opinion for an informed home ownership.</p>
+                <p className='text-center'>SAAREP’s mission is to empower South Asian Community through establishing an environment where everyone can grow and voice their opinion for an informed home ownership.</p>
             </div>
             <div className='mb-4'>
                 <h1 className='font-bold uppercase text-black text-4xl mb-3'>Vision</h1>
-                <p className='text-justify'>A platform for the South Asian Real Estate community where seasoned and prospective South Asian RE Professionals affiliation will be instrumental for their growth.</p>
+                <p className='text-center'>A platform for the South Asian Real Estate community where seasoned and prospective South Asian RE Professionals affiliation will be instrumental for their growth.</p>
             </div>
         </div>
     );
