@@ -24,7 +24,7 @@ const Modal = ({ names }) => {
             profession: 'Founder',
             company: 'AtoZ Title and Settlement',
             role: '',
-            about: "Life comes in full circle! Looking back two decades of my professional career in Financial/Real estate industry, my affiliation with various associations helped me to achieve a mindset to evolve, exposed me to learn from a diverse community; moreover these events taught me how to be comfortable being uncomfortable to handle any situation professionally, even personally. I have been fortunate enough! During my childhood in Bangladesh, I was involved in Boy Scouts at grade 4, followed by joining national cadet corps, and later lucky to be a part of Red Crescent in my middle school, joined world's largest student association AIESEC when I was in high school - exposed me to some tangible opportunities in life. I have been blessed! Before starting SAAREP last year, discussing pain points in the industry; specifically for South Asian Real Estate Professionals, was an eye-opening opportunity since it requires rigorous engagement in the South Asian community to have an overall impact. In order to achieve community wide impact, an association like SAAREP can be instrumental by connecting with the professionals, offering educational seminar, allowing a platform to network with other successful professionals. I have been on the receiving end throughout my life for such opportunities. Excited to see how we can design SAAREP's future activities to benefit others the similar way."
+            about: `Life comes in full circle! \n\nLooking back two decades of my professional career in Financial/Real estate industry, my affiliation with various associations helped me to achieve a mindset to evolve, exposed me to learn from a diverse community; moreover these events taught me how to be comfortable being uncomfortable to handle any situation professionally, even personally. \n\nI have been fortunate enough! \n\nDuring my childhood in Bangladesh, I was involved in Boy Scouts at grade 4, followed by joining national cadet corps, and later lucky to be a part of Red Crescent in my middle school, joined world's largest student association AIESEC when I was in high school - exposed me to some tangible opportunities in life. \n\nI have been blessed! \n\nBefore starting SAAREP last year, discussing pain points in the industry; specifically for South Asian Real Estate Professionals, was an eye-opening opportunity since it requires rigorous engagement in the South Asian community to have an overall impact. In order to achieve community wide impact, an association like SAAREP can be instrumental by connecting with the professionals, offering educational seminar, allowing a platform to network with other successful professionals. \n\nI have been on the receiving end throughout my life for such opportunities. Excited to see how we can design SAAREP's future activities to benefit others the similar way.`
         },
         {
             name: "Atul Gulta",
@@ -99,8 +99,9 @@ const Modal = ({ names }) => {
                 <div className="modal-box relative" id='custom-modal' ref={modalRef}>
                     <label onClick={() => setModalStatus(false)} htmlFor="see-bio-modal" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
                     <h3 className="text-lg font-bold ">Read about {person.name}</h3>
-                    <p className='py-4 text-justify'>{person.about}</p>
+                    <p className='py-4 whitespace-pre-line'>{person.about}</p>
                     <div>
+                        <p>{person?.name}</p>
                         <p>{person?.profession}</p>
                         <p>{person?.company}</p>
                         <p>{person?.address}</p>
