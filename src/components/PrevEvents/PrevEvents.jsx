@@ -87,10 +87,10 @@ const PrevEvents = () => {
     ]
     return (
         <PhotoProvider>
-            <div className='grid grid-cols-5 gap-2'>
+            <div className='grid grid-cols-4 gap-2'>
             {
                 events.map((evt, index) => <PhotoView key={index} src={evt.img}>
-                    <img className='w-full h-full cursor-pointer' src={evt.img} alt="" />
+                    <img className={`w-full h-full cursor-pointer ${index > 3 ? 'hidden': ''}`} src={evt.img} alt="" />
                 </PhotoView>)
             }
             </div>

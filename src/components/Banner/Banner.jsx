@@ -43,6 +43,14 @@ const Banner = () => {
                         <img src={event} className="w-[25px] h-[25px]" />
                         <p className=''>here is event name</p>
                     </div>
+                    <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
+                        <img src={event} className="w-[25px] h-[25px]" />
+                        <p className=''>here is event name</p>
+                    </div>
+                    <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
+                        <img src={event} className="w-[25px] h-[25px]" />
+                        <p className=''>here is event name</p>
+                    </div>
                 </div>
                 <div>
                     <h1 className='font-bold text-xl text-black my-6'>Previous Events</h1>
