@@ -11,28 +11,29 @@ const CarouselProvider = () => {
     return (
         <Carousel autoPlay infiniteLoop interval={5000}>
             <div className='h-[400px] md:h-[505px] lg:h-[600px]'>
-                <div className='relative h-full'>
-                    <img src={gala} className="h-full" />
-                    <div className='font-bold uppercase text-xl md:text-2xl absolute top-0 left-0 bg-black opacity-80 text-white h-full w-full grid place-items-center'><span className='p-8'>
-                        <p>Jun 4</p>
-                        <h2 className="card-title hidden lg:block md:block">SAAREP AWARD GALA - A Black Tie Event</h2>
-                        <div className=" justify-start ">
-                            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold mb-2 py-2 px-4 rounded-full text-sm"><a href="https://www.eventbrite.com/e/saarep-award-gala-a-black-tie-event-tickets-618001738837" class="no-underline hover:underline">Register Here for Evening Session</a></button>
+                <div className="h-[194px] md:h-[250px] lg:h-[290px] mb-2 flex justify-center items-center  gap-2 flex-col lg:flex-row">
+                    <img src={conf} className='h-4/5' />
+                    <div className='' >
+                        <div className=" ">
+                            <p className='text-small text-start hidden lg:block'>Jun 4</p>
+                            <h2 className="card-title hidden lg:block">2023 SAAREP Annual Conference - REAL ESTATE & BEYOND</h2>
+                            <div className="justify-start">
+                                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mb-2 rounded-full text-sm"><a href="https://www.eventbrite.com/e/2023-saarep-annual-conference-real-estate-beyond-tickets-617395515607" class="no-underline hover:underline">Register Here for Morning Session</a></button>
+                            </div>
                         </div>
-                    </span></div>
+                    </div>
                 </div>
-            </div>
-
-            <div className='h-[400px] md:h-[505px] lg:h-[600px]'>
-                <div className='relative h-full'>
-                    <img src={conf} className="h-full" />
-                    <div className='font-bold uppercase text-xl md:text-2xl absolute top-0 left-0 bg-black opacity-80 text-white h-full w-full grid place-items-center'><span className='p-8'>
-                        <p className=''>Jun 4</p>
-                        <h2 className="card-title hidden lg:block md:block">2023 SAAREP Annual Conference - REAL ESTATE & BEYOND</h2>
-                        <div className=" justify-start ">
-                            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold mb-2 py-2 px-4 rounded-full text-sm"><a href="https://www.eventbrite.com/e/2023-saarep-annual-conference-real-estate-beyond-tickets-617395515607" class="no-underline hover:underline">Register Here for Morning Session</a></button>
+                <div className="h-[194px] md:h-[250px] lg:h-[290px] flex  justify-center items-center gap-2 flex-col lg:flex-row">
+                    <img src={gala} className='h-4/5' />
+                    <div className="content-center">
+                        <p className='text-small text-start hidden lg:block'>Jun 4</p>
+                        <h2 className="card-title hidden lg:block">SAAREP AWARD GALA - A Black Tie Event</h2>
+                        <div className="">
+                            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mb-2 rounded-full text-sm"><a href="https://www.eventbrite.com/e/saarep-award-gala-a-black-tie-event-tickets-618001738837" class="no-underline hover:underline">Register Here for Evening Session</a></button>
                         </div>
-                    </span></div>
+
+                    </div>
+
                 </div>
             </div>
             <div className='h-[400px] md:h-[505px] lg:h-[600px]'>
