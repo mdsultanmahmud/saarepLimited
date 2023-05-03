@@ -31,25 +31,19 @@ const Banner = () => {
             <div className='w-full lg:w-[200px]'>
                 <div>
                     <h1 className='font-bold text-xl text-black mb-6'>Upcoming Events</h1>
-                    <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
-                        <img src={event} className="w-[25px] h-[25px]" />
-                        <p className=''>here is event name</p>
-                    </div> 
-                    <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
-                        <img src={event} className="w-[25px] h-[25px]" />
-                        <p className=''>here is event name</p>
+                    <div className='flex flex-col items-center justify-center  bg-gray-600 gap-2 mb-2 p-2'>
+                        {/* <img src={event} className="w-[25px] h-[25px]" /> */}
+
+                        <p className='text-white font-bold'>SAAREP AWARD GALA - A Black Tie Event </p>
+                        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold mb-2 py-2 px-4 rounded-full'><a href="https://www.eventbrite.com/e/saarep-award-gala-a-black-tie-event-tickets-618001738837" class="no-underline hover:underline ...">Register Here</a></button>
+
                     </div>
-                    <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
-                        <img src={event} className="w-[25px] h-[25px]" />
-                        <p className=''>here is event name</p>
-                    </div>
-                    <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
-                        <img src={event} className="w-[25px] h-[25px]" />
-                        <p className=''>here is event name</p>
-                    </div>
-                    <div className='flex items-center gap-3 bg-gray-600 p-3 mb-2'>
-                        <img src={event} className="w-[25px] h-[25px]" />
-                        <p className=''>here is event name</p>
+                    <div className='flex flex-col items-center justify-center  bg-gray-600 gap-2 mb-2 p-2'>
+                        {/* <img src={event} className="w-[25px] h-[25px]" /> */}
+
+                        <p className='text-white font-bold'>2023 SAAREP Annual Conference - REAL ESTATE & BEYOND</p>
+                        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold mb-2 py-2 px-4 rounded-full'><a href="https://www.eventbrite.com/e/2023-saarep-annual-conference-real-estate-beyond-tickets-617395515607" class="no-underline hover:underline ...">Register Here</a></button>
+
                     </div>
                 </div>
                 <div>

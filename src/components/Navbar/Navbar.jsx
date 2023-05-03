@@ -42,8 +42,8 @@ const Navbar = () => {
                     <img src={logo} className="w-[80px] md:w-[150px]" alt="" />
                 </a>
             </div>
-            <div className='navbar-center mr-16 md:mr-32 lg:mr-16 mt-4'>
-                <h1 className='text-[8px] md:text-sm'>South Asian Association of Real Estate Professionals</h1>
+            <div className='navbar-center mr-16 md:mr-32 lg:mr-16 mt-4 lg:mt-0'>
+                <h1 className='text-[8px] md:text-sm lg:font-bold'>South Asian Association of Real Estate Professionals</h1>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 menu-list">
