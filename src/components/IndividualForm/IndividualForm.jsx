@@ -3,7 +3,7 @@ import React from 'react';
 const IndividualForm = () => {
     return (
         <div>
-            <form className='md:w-1/2 mx-auto'>
+            <form className='md:w-1/2 mx-auto' action="https://formsubmit.co/06fb2f72169a32f9d840779b856c4b56" method="POST">
                 <div className='mb-2'>
                     <label className='text-white mb-2' htmlFor="first_name">First Name</label>
                     <br />
