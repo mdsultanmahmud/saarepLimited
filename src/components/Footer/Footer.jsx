@@ -13,7 +13,7 @@ const Footer = () => {
                     <a href="#about">About</a> <br />
                     <a href="#whysaarep">Why SAAREP</a> <br />
                     <a href="#">Membership</a> <br />
-                    <a href="#">Partner</a> <br />
+                    {/* <a href="#">Partner</a> <br /> */}
                     <a href="#contact">Contact</a> <br />
                 </div>
             </div>

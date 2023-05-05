@@ -51,7 +51,7 @@ const CarouselProvider = () => {
             <div className='h-[400px] md:h-[505px] lg:h-[600px]'>
                 <div className='relative h-full'>
                     <img src={caroselThree} className="h-full" />
-                    <p className='font-bold uppercase text-xl md:text-2xl absolute top-0 left-0 bg-black opacity-80 text-white h-full w-full grid place-items-center'><span className='p-8'>SAAREP's objective of Informed Home Ownership will only materialize when You are ready to contribute. Please click on 'Membership' tab to join. We are grateful to you.</span></p>
+                    <p className='font-bold uppercase text-xl md:text-2xl absolute top-0 left-0 bg-black opacity-80 text-white h-full w-full grid place-items-center'><span className='p-8'>SAAREP's objective of <span className='text-blue-600'>Informed Home Ownership</span> will only materialize when You are ready to contribute. Please click on 'Membership' tab to join. We are grateful to you.</span></p>
                 </div>
             </div>
         </Carousel>
