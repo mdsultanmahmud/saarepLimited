@@ -51,10 +51,11 @@ const About = () => {
     return (
         <div>
             <h1 className='text-center text-black text-2xl font-bold my-4 uppercase'>About Us</h1>
-            <div id='about' className='my-4 p-4 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+            <div id='about' className='my-4 p-4 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center'>
                 {
                     users.map((user, index) => {
-                        return <div key={index} className='rounded shadow-lg p-4 text-center'>
+                        {/* plz check the condition in the return div, where user.name == 'Jawaid kotwal's for center div. */}
+                        return <div key={index} className={`rounded shadow-lg p-4 text-center ${user.name === 'Jawaid Kotwal' ? 'col-span-full' : ''}`}> 
                             <img src={user.img} alt="" className='rounded-full mb-3 h-[220px] w-[220px] mx-auto' />
                             <div>
                                 <h3 className='font-bold capitalize text-gray-500'>{user.name}</h3>
