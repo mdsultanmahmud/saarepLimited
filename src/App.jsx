@@ -3,6 +3,7 @@ import Banner from "./components/Banner/Banner"
 import Contact from "./components/Contact/Contact"
 import Footer from "./components/Footer/Footer"
 import MemberShip from "./components/MemberShip/MemberShip"
+import MembershipType from "./components/MembershipType/MembershipType"
 import Navbar from "./components/Navbar/Navbar"
 import Partner from "./components/Partner/Partner"
 import Vision from "./components/Vision/Vision"
@@ -16,6 +17,7 @@ function App() {
       <Vision></Vision>
       <About></About>
       <WhySaarep></WhySaarep>
+      <MembershipType></MembershipType>
       <MemberShip></MemberShip>
       {/* <Partner></Partner> */}
       <Contact></Contact>

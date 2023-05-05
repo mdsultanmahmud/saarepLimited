@@ -69,6 +69,17 @@ const Modal = ({ names }) => {
             company: 'Trademark Realty',
             role: '',
             about: "An educated consumer will make educated decisions, and this is particularly crucial to successful Real Estate transactions. An educated consumer has the best chance of avoiding the many pitfalls which might be encountered in today’s Real Estate market.Setting goals – and working collectively with others to achieve those goals – is a byproduct of my South Asian heritage. At an early age, it became evident to me that articulating goals to others to form a cohesive team working toward these goals was the surest way to achieve success.To many, owning your own home is a clear sign of success. It is with this in mind that my job becomes clear. My job is to help others achieve their Real Estate aspirations. Helping someone be successful in their Real Estate journey is my mission. I joined SAAREP because I fully understand and believe in it’s mission of helping to connect the Real Estate community to one another and ultimately build dreams and strengthening the South Asian community. Together we will do great things."
+        },
+        {
+            name: "Jawaid Kotwal",
+            title: "Director - Community Engagement",
+            email:'Kotwal@KotwalHomes.com',
+            comWebsite:'',
+            address:'703-581-2312',
+            profession: '',
+            company: '',
+            role: '',
+            about: "Jawaid Kotwal is Realtor with 10 years of experience under his belt, a Mortgage Loan Originator, an entrepreneur and a community leader. He is the founder of ALDC- Afghans Living in the DC area, a community group of over 16,000 members, the largest community group of Afghan-Americans in diaspora. He is also on the Board of AAF-Afghan-American Foundation, a national, non-partisan advocacy organization aimed at promoting the interests of Afghan-Americans. Jawaid has been on the forefront of community work, both on the grassroots level, through his work at ALDC for the last ten years, in which he has helped thousands of community members connect with their counterparts and get their needs addressed from community fundraisers, to cultural events, and educational seminars; as well as on the advocacy front through his role as the community liaison at the AAF, which he connects Afghan-American organizations for the greater good of the community. Mr. Kotwal is a natural “connector” with passion for helping others, and empowering the community, with a dream of a unified and strong community that has the capacity to elevate and empower its members. His mission as a real estate professional is to empower the community through home ownership, and to educate them on how to achieve the American dream."
         }
     ]
     useEffect(() => {
