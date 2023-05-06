@@ -5,7 +5,6 @@ const PaypalCheckoutBtn = (props) => {
     const { product } = props
     const [paidFor, setPaidFor] = useState(false)
     const [error, setError] = useState(null)
-    console.log(product)
 
     const approvedOrder = (orderId) => {
         console.log("this is order id:", orderId)
@@ -20,7 +19,7 @@ const PaypalCheckoutBtn = (props) => {
         alert(error)
     }
 
-    return <div className='z-index-0'> 
+    return <div className='z-index-0'>
         <PayPalButtons
             style={{
                 color: "gold",
