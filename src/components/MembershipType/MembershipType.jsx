@@ -1,5 +1,6 @@
 import React from 'react';
 import paypal from '../../assets/paypal.png'
+import PaypalCheckoutBtn from '../PaypalCheckoutBtn/PaypalCheckoutBtn';
 const MembershipType = () => {
     return (
         <>
@@ -11,18 +12,27 @@ const MembershipType = () => {
                         <div>
                             <div className='grid grid-cols-3 gap-2 text-center p-2'>
                                 <p className='bg-red-300 p-1 font-bold rounded m-w-[65px]'>GOLD</p>
-                                <p className='bg-red-300 p-1 font-bold rounded'>Tier 1 : $500 Annual</p>
-                                <button><img src={paypal} className='h-full w-full ' /></button>
+                                <p className='bg-red-300 p-1 font-bold rounded'>$500 Annual</p>
+                                <PaypalCheckoutBtn product={{
+                                    name: "GOLD",
+                                    price: 500
+                                }}></PaypalCheckoutBtn>
                             </div>
                             <div className='grid grid-cols-3 gap-2 text-center p-2'>
                                 <p className='bg-red-300 p-1 font-bold rounded'>SILVER</p>
-                                <p className='bg-red-300 p-1 font-bold rounded'>Tier 1 : $350 Annual</p>
-                                <button><img src={paypal} className='h-full w-full ' /></button>
+                                <p className='bg-red-300 p-1 font-bold rounded'>$350 Annual</p>
+                                <PaypalCheckoutBtn product={{
+                                    name: "SILVER",
+                                    price: 350
+                                }}></PaypalCheckoutBtn>
                             </div>
                             <div className='grid grid-cols-3 gap-2 text-center p-2'>
                                 <p className='bg-red-300 p-1 font-bold rounded'>BRONZE</p>
-                                <p className='bg-red-300 p-1 font-bold rounded'>Tier 1 : $100 Annual</p>
-                                <button><img src={paypal} className='h-full w-full ' /></button>
+                                <p className='bg-red-300 p-1 font-bold rounded'>$100 Annual</p>
+                                <PaypalCheckoutBtn product={{
+                                    name: "BRONZE",
+                                    price: 100
+                                }}></PaypalCheckoutBtn>
                             </div>
                         </div>
                         <div>
@@ -114,13 +124,19 @@ const MembershipType = () => {
                         <div className='flex flex-col justify-around gap-1'>
                             <div className='grid grid-cols-3 gap-2 text-center p-2'>
                                 <p className='bg-red-300 p-1 font-bold rounded'>Annual Membership</p>
-                                <p className='bg-red-300 p-1 font-bold rounded'>$2.999 Annual</p>
-                                <button><img src={paypal} className='h-full w-full ' /></button>
+                                <p className='bg-red-300 p-1 font-bold rounded'>$2,999 Annual</p>
+                                <PaypalCheckoutBtn product={{
+                                    name: "Annual Membership",
+                                    price: 2999
+                                }}></PaypalCheckoutBtn>
                             </div>
                             <div className='grid grid-cols-3 gap-2 text-center p-2'>
                                 <p className='bg-red-300 p-1 font-bold rounded'>Event Partnership</p>
                                 <p className='bg-red-300 p-1 font-bold rounded'>$499 Annual</p>
-                                <button><img src={paypal} className='h-full w-full ' /></button>
+                                <PaypalCheckoutBtn product={{
+                                    name: "Event Partnership",
+                                    price: 499
+                                }}></PaypalCheckoutBtn>
                             </div>
 
                         </div>
@@ -200,6 +216,10 @@ const MembershipType = () => {
 
                 </div>
             </div>
+            {/* <button>
+                pay with paypal
+                <PaypalCheckoutBtn product={product}></PaypalCheckoutBtn>
+            </button> */}
         </>
     );
 };

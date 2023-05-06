@@ -4,7 +4,6 @@ import IndividualForm from '../IndividualForm/IndividualForm';
 
 const MemberShip = () => {
     const [isIndividual, setIsIndividual] = useState(true)
-    console.log(isIndividual)
     return (
         <div id='membership' className='my-10 p-4 min-h-[500px] shadow-lg bg-gray-600'>
             <h1 className='text-center text-2xl uppercase my-4 font-bold text-white'>Membership</h1>
