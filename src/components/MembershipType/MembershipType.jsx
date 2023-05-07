@@ -1,22 +1,20 @@
 import React from 'react';
-import paypal from '../../assets/paypal.png'
 import PaypalCheckoutBtn from '../PaypalCheckoutBtn/PaypalCheckoutBtn';
 const MembershipType = () => {
     return (
         <>
             <div className='flex flex-col w-full gap-2 bg-gray-600  items-center'>
                 <div><h1 className='text-center text-2xl uppercase my-4 font-bold text-white'>Membership Features</h1></div>
-
                 <div className='my-8 grid grid-cols-1 lg:grid-cols-2 gap-5 p-2'>
                     <div className='w-full flex flex-col items-center gap-1 bg-white rounded'><h1 className='uppercase font-bold  text-center bg-sky-500/100 w-full text-white p-4'> SAAREP INDIVIDUAL MEMBERSHIP</h1>
                         <div>
                             <div className='grid grid-cols-3 gap-2 text-center p-2'>
                                 <p className='bg-red-300 p-1 font-bold rounded m-w-[65px]'>GOLD</p>
                                 <p className='bg-red-300 p-1 font-bold rounded'>$500 Annual</p>
-                                <PaypalCheckoutBtn product={{
-                                    name: "GOLD",
-                                    price: 500
-                                }}></PaypalCheckoutBtn>
+                                    <PaypalCheckoutBtn product={{
+                                        name: "GOLD",
+                                        price: 500
+                                    }}></PaypalCheckoutBtn>
                             </div>
                             <div className='grid grid-cols-3 gap-2 text-center p-2'>
                                 <p className='bg-red-300 p-1 font-bold rounded'>SILVER</p>
