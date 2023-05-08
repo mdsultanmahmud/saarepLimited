@@ -1,6 +1,9 @@
 import React from 'react';
 import PaypalCheckoutBtn from '../PaypalCheckoutBtn/PaypalCheckoutBtn';
-const MembershipType = () => {
+const MembershipType = (scrolling) => {
+    console.log(scrolling)
+    const {scrollToTheSection} = scrolling
+    // console.log(scrollToTheSection)
     return (
         <>
             <div className='flex flex-col w-full gap-2 bg-gray-600  items-center'>
@@ -11,7 +14,7 @@ const MembershipType = () => {
                             <div className='grid grid-cols-3 gap-2 text-center p-2'>
                                 <p className='bg-red-300 p-1 font-bold rounded m-w-[65px]'>GOLD</p>
                                 <p className='bg-red-300 p-1 font-bold rounded'>$500 Annual</p>
-                                    <PaypalCheckoutBtn product={{
+                                    <PaypalCheckoutBtn scrollToSec = {scrolling} product={{
                                         name: "GOLD",
                                         price: 500
                                     }}></PaypalCheckoutBtn>
@@ -19,7 +22,7 @@ const MembershipType = () => {
                             <div className='grid grid-cols-3 gap-2 text-center p-2'>
                                 <p className='bg-red-300 p-1 font-bold rounded'>SILVER</p>
                                 <p className='bg-red-300 p-1 font-bold rounded'>$350 Annual</p>
-                                <PaypalCheckoutBtn product={{
+                                <PaypalCheckoutBtn scrollToSec = {scrolling} product={{
                                     name: "SILVER",
                                     price: 350
                                 }}></PaypalCheckoutBtn>
@@ -27,7 +30,7 @@ const MembershipType = () => {
                             <div className='grid grid-cols-3 gap-2 text-center p-2'>
                                 <p className='bg-red-300 p-1 font-bold rounded'>BRONZE</p>
                                 <p className='bg-red-300 p-1 font-bold rounded'>$100 Annual</p>
-                                <PaypalCheckoutBtn product={{
+                                <PaypalCheckoutBtn scrollToSec = {scrolling} product={{
                                     name: "BRONZE",
                                     price: 100
                                 }}></PaypalCheckoutBtn>
@@ -123,7 +126,7 @@ const MembershipType = () => {
                             <div className='grid grid-cols-3 gap-2 text-center p-2'>
                                 <p className='bg-red-300 p-1 font-bold rounded'>Annual Membership</p>
                                 <p className='bg-red-300 p-1 font-bold rounded'>$2,999 Annual</p>
-                                <PaypalCheckoutBtn product={{
+                                <PaypalCheckoutBtn scrollToSec = {scrolling} product={{
                                     name: "Annual Membership",
                                     price: 2999
                                 }}></PaypalCheckoutBtn>
@@ -131,7 +134,7 @@ const MembershipType = () => {
                             <div className='grid grid-cols-3 gap-2 text-center p-2'>
                                 <p className='bg-red-300 p-1 font-bold rounded'>Event Partnership</p>
                                 <p className='bg-red-300 p-1 font-bold rounded'>$499 Annual</p>
-                                <PaypalCheckoutBtn product={{
+                                <PaypalCheckoutBtn scrollToSec = {scrolling} product={{
                                     name: "Event Partnership",
                                     price: 499
                                 }}></PaypalCheckoutBtn>

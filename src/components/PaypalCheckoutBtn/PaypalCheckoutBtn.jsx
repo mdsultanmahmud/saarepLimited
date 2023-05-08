@@ -4,10 +4,10 @@ import { toast } from 'react-hot-toast';
 
 
 const PaypalCheckoutBtn = (props) => {
-    const { product } = props
+    const { product, scrollToSec } = props
     const [paidFor, setPaidFor] = useState(false)
     const [error, setError] = useState(null)
-
+    const { scrolling } = scrollToSec
     const approvedOrder = (orderId) => {
         console.log("this is order id:", orderId)
         setPaidFor(true)
@@ -16,6 +16,8 @@ const PaypalCheckoutBtn = (props) => {
     if (paidFor) {
         // alert("Thanks for purchase")
         toast.success("Your payment has been confirmed!!Thanks for purchase!!")
+        scrolling()
+
     }
 
     if (error) {

@@ -1,3 +1,4 @@
+import { useRef, useState } from "react"
 import About from "./components/About/About"
 import Banner from "./components/Banner/Banner"
 import Contact from "./components/Contact/Contact"
@@ -11,18 +12,22 @@ import WhySaarep from "./components/WhySaarep/WhySaarep"
 import { PayPalScriptProvider } from "@paypal/react-paypal-js"
 import { Toaster } from "react-hot-toast"
 function App() {
-  // console.log(import.meta.env.VITE_PAYPAL_CLIENT_ID)
+  const ref = useRef(null)
+  const scrollToTheSection = () =>{
+    ref.current?.scrollIntoView({behavior: 'smooth'})
+  }
   return (
     <div>
       <PayPalScriptProvider options={{ "client-id": import.meta.env.VITE_PAYPAL_CLIENT_ID }}>
         <div className="mx-6 md:mx-12">
           <Navbar></Navbar>
           <Banner></Banner>
+          <button onClick={scrollToTheSection}>scrolling</button>
           <Vision></Vision>
           <About></About>
           <WhySaarep></WhySaarep>
-          <MembershipType></MembershipType>
-          <MemberShip></MemberShip>
+          <MembershipType scrolling = {scrollToTheSection}></MembershipType>
+          <MemberShip ref = {ref} text = {"Membership"}></MemberShip>
           {/* <Partner></Partner> */}
           <Contact></Contact>
           <Footer></Footer>
