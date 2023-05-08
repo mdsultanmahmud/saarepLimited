@@ -22,7 +22,7 @@ const About = () => {
             img: tanvir
         },
         {
-            name: "Atul Gulta",
+            name: "Atul Gupta",
             position: "Treasurer",
             img: atul
         },
