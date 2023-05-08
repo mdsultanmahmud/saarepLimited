@@ -9,7 +9,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './CarouselProvider.css'
 const CarouselProvider = () => {
     return (
-        <Carousel autoPlay infiniteLoop interval={5000}>
+        <Carousel autoPlay infiniteLoop interval={5000} preventMovementUntilSwipeScrollTolerance={true} swipeScrollTolerance={50}>
             <div className='h-[400px] md:h-[505px] lg:h-[600px]'>
                 <div className="h-[194px] md:h-[250px] lg:h-[290px] mb-2 flex justify-center items-center  gap-2">
                     <img src={conf} className='h-4/5 flex-1' />

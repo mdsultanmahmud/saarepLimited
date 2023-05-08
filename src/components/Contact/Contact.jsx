@@ -10,17 +10,17 @@ const Contact = () => {
                 <div className='mb-2'>
                     <label className='text-white mb-2' htmlFor="name">Your Name</label>
                     <br />
-                    <input className='text-white p-2 rounded w-full bg-[#02173C] border-none outline-none' type="text" name="name" id="name" placeholder="What's Your Good Name" />
+                    <input className='text-white p-2 rounded w-full bg-[#02173C] border-none outline-none' type="text" name="name" id="name"/>
                 </div>
                 <div className='mb-2'>
                     <label className='text-white mb-2' htmlFor="email">Your Email</label>
                     <br />
-                    <input className='text-white p-2 rounded w-full bg-[#02173C] border-none outline-none' type="email" name="email" id="email" placeholder="What's Your Email Address" />
+                    <input className='text-white p-2 rounded w-full bg-[#02173C] border-none outline-none' type="email" name="email" id="email"/>
                 </div>
                 <div className='mb-2'>
                     <label className='text-white mb-2' htmlFor="text-area">Your Message</label>
                     <br />
-                    <textarea className='text-white p-2 rounded w-full bg-[#02173C] border-none outline-none' name="text-area" id="text-area" cols="30" rows="10" placeholder='What You Want to Say?'></textarea>
+                    <textarea className='text-white p-2 rounded w-full bg-[#02173C] border-none outline-none' name="text-area" id="text-area" cols="30" rows="10" ></textarea>
                 </div>
                 <button type='submit' className='px-8 py-4 font-bold text-white bg-[#02173C] mb-8 mt-3 mx-auto block hover:opacity-80'>SEND</button>
             </form>
