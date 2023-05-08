@@ -12,14 +12,9 @@ const About = () => {
     const [modalStatus, setModalStatus] = useState(false)
     const users = [
         {
-            name: "Lavina Samtani",
-            position: "Member Relations",
-            img: lavina
-        },
-        {
-            name: "Tanvir Aziz",
-            position: "President",
-            img: tanvir
+            name: "Anita George",
+            position: "Cultural Director",
+            img: anita
         },
         {
             name: "Atul Gupta",
@@ -32,9 +27,14 @@ const About = () => {
             img: ayesha
         },
         {
-            name: "Anita George",
-            position: "Cultural Director",
-            img: anita
+            name: "Jawaid Kotwal",
+            position: "Director - Community Engagement",
+            img: kotwal
+        },
+        {
+            name: "Lavina Samtani",
+            position: "Member Relations",
+            img: lavina
         },
         {
             name: "Nick Rowan",
@@ -42,11 +42,10 @@ const About = () => {
             img: nick
         },
         {
-            name: "Jawaid Kotwal",
-            position: "Director - Community Engagement",
-            img: kotwal
+            name: "Tanvir Aziz",
+            position: "President",
+            img: tanvir
         },
-
     ]
     return (
         <div>
@@ -54,8 +53,8 @@ const About = () => {
             <div id='about' className='my-4 p-4 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center'>
                 {
                     users.map((user, index) => {
-                        {/* plz check the condition in the return div, where user.name == 'Jawaid kotwal's for center div. */}
-                        return <div key={index} className={`rounded shadow-lg p-4 text-center ${user.name === 'Jawaid Kotwal' ? 'col-span-full' : ''}`}> 
+                        {/* plz check the condition in the return div, where user.name == 'Jawaid kotwal's for center div. */ }
+                        return <div key={index} className={`rounded shadow-lg p-4 text-center ${user.name === 'Tanvir Aziz' ? 'col-span-full' : ''}`}>
                             <img src={user.img} alt="" className='rounded-full mb-3 h-[220px] w-[220px] mx-auto' />
                             <div>
                                 <h3 className='font-bold capitalize text-gray-500'>{user.name}</h3>

@@ -22,7 +22,6 @@ function App() {
         <div className="mx-6 md:mx-12">
           <Navbar></Navbar>
           <Banner></Banner>
-          <button onClick={scrollToTheSection}>scrolling</button>
           <Vision></Vision>
           <About></About>
           <WhySaarep></WhySaarep>
