@@ -80,6 +80,17 @@ const Modal = ({ names }) => {
             company: '',
             role: '',
             about: "Jawaid Kotwal is Realtor with 10 years of experience under his belt, a Mortgage Loan Originator, an entrepreneur and a community leader. He is the founder of ALDC- Afghans Living in the DC area, a community group of over 16,000 members, the largest community group of Afghan-Americans in diaspora. He is also on the Board of AAF-Afghan-American Foundation, a national, non-partisan advocacy organization aimed at promoting the interests of Afghan-Americans. Jawaid has been on the forefront of community work, both on the grassroots level, through his work at ALDC for the last ten years, in which he has helped thousands of community members connect with their counterparts and get their needs addressed from community fundraisers, to cultural events, and educational seminars; as well as on the advocacy front through his role as the community liaison at the AAF, which he connects Afghan-American organizations for the greater good of the community. Mr. Kotwal is a natural “connector” with passion for helping others, and empowering the community, with a dream of a unified and strong community that has the capacity to elevate and empower its members. His mission as a real estate professional is to empower the community through home ownership, and to educate them on how to achieve the American dream."
+        },
+        {
+            name: "Abuzar Waleed",
+            title: "Program Director",
+            email:'waleed@theteamusa.com',
+            comWebsite:'http://www.theteamusa.com',
+            address:'888-884-3396',
+            profession: '',
+            company: '',
+            role: '',
+            about: "Abuzar Waleed is the CEO of The Team USA Real Estate at RE/MAX Executives, your trusted partner in buying, selling, and investing in real estate. With 19 years of industry experience, they are a leading real estate agency known for their expertise, professionalism, and personalized service. \n\nAbuzar Waleed manages an office of experienced real estate professionals who are dedicated to helping clients achieve their real estate goals. Whether you're buying your dream home, selling a property, or looking to invest in real estate, they have the knowledge, resources, and market insights to guide you through the entire process.\n\nAbuzar Waleed and his team pride their selves on their commitment to client satisfaction. They listen to your needs, provide expert advice, and work tirelessly to negotiate the best deals on your behalf."
         }
     ]
     useEffect(() => {
