@@ -125,18 +125,18 @@ const MembershipType = (scrolling) => {
                         <div className='flex flex-col justify-around gap-1'>
                             <div className='grid grid-cols-3 gap-2 text-center p-2'>
                                 <p className='bg-red-300 p-1 font-bold rounded'>Annual Membership</p>
-                                <p className='bg-red-300 p-1 font-bold rounded'>$2,999 Annual</p>
+                                <p className='bg-red-300 p-1 font-bold rounded'>$4,999 Annual</p>
                                 <PaypalCheckoutBtn scrollToSec = {scrolling} product={{
                                     name: "Annual Membership",
-                                    price: 2999
+                                    price: 4999
                                 }}></PaypalCheckoutBtn>
                             </div>
                             <div className='grid grid-cols-3 gap-2 text-center p-2'>
                                 <p className='bg-red-300 p-1 font-bold rounded'>Event Partnership</p>
-                                <p className='bg-red-300 p-1 font-bold rounded'>$499 Annual</p>
+                                <p className='bg-red-300 p-1 font-bold rounded'>$599 Annual</p>
                                 <PaypalCheckoutBtn scrollToSec = {scrolling} product={{
                                     name: "Event Partnership",
-                                    price: 499
+                                    price: 599
                                 }}></PaypalCheckoutBtn>
                             </div>
 
