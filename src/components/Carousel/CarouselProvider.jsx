@@ -23,7 +23,7 @@ const CarouselProvider = () => {
                         </div>
                     </div>
                 </div>
-                <div className="h-[194px] md:h-[250px] lg:h-[290px] flex  justify-center items-center gap-2">
+                {/* <div className="h-[194px] md:h-[250px] lg:h-[290px] flex  justify-center items-center gap-2">
                     <img src={gala} className='h-4/5 flex-1' />
                     <div className="flex-1">
                         <p className='text-center hidden md:block'>Jun 4</p>
@@ -34,7 +34,7 @@ const CarouselProvider = () => {
 
                     </div>
 
-                </div>
+                </div> */}
             </div>
             <div className='h-[400px] md:h-[505px] lg:h-[600px]'>
                 <div className='relative h-full'>

@@ -4,17 +4,17 @@ const Modal = ({ names }) => {
     const [person, setPerson] = useState("")
     const { name, modalStatus, setModalStatus } = names
     const peoples = [
-        {
-            name: "Lavina Samtani",
-            title: "Member Relations",
-            email:'Lavinarealtor@Gmail.com',
-            comWebsite:'MarylandHomesforus.com',
-            address:'240-506-1620',
-            profession: 'Realtor',
-            company: 'RE/MAX Realty Centre',
-            role: '',
-            about: "At Saarep, our mission is to create a platform that connects, affiliates, levels up, and grows a diverse group of professionals in the real estate industry. We want to foster an environment where we can collaborate, share ideas, and refer business to one another with confidence. It's amazing to see how many South Asian realtors and other professionals in the DMV area are a part of our community. When I started in real estate 21 years ago, I had no idea how many of us there were and the potential we had to support each other's businesses. Saarep is all about building relationships and creating opportunities for us to learn from each other. When we connect and affiliate with each other, we can level up our performance and grow together. We want all members to feel comfortable getting to know each other and building relationships that will benefit us all. At Saarep, we believe that by working together, we can achieve more than we ever could alone."
-        },
+        // {
+        //     name: "Lavina Samtani",
+        //     title: "Member Relations",
+        //     email:'Lavinarealtor@Gmail.com',
+        //     comWebsite:'MarylandHomesforus.com',
+        //     address:'240-506-1620',
+        //     profession: 'Realtor',
+        //     company: 'RE/MAX Realty Centre',
+        //     role: '',
+        //     about: "At Saarep, our mission is to create a platform that connects, affiliates, levels up, and grows a diverse group of professionals in the real estate industry. We want to foster an environment where we can collaborate, share ideas, and refer business to one another with confidence. It's amazing to see how many South Asian realtors and other professionals in the DMV area are a part of our community. When I started in real estate 21 years ago, I had no idea how many of us there were and the potential we had to support each other's businesses. Saarep is all about building relationships and creating opportunities for us to learn from each other. When we connect and affiliate with each other, we can level up our performance and grow together. We want all members to feel comfortable getting to know each other and building relationships that will benefit us all. At Saarep, we believe that by working together, we can achieve more than we ever could alone."
+        // },
         {
             name: "Tanvir Aziz",
             title: "President",
@@ -48,17 +48,17 @@ const Modal = ({ names }) => {
             role: '',
             about: "As a Realtor with Berkshire Hathaway HomeServices PenFed Realty, When I think of SAAREP it gives me the sense of belonging, a platform that promotes the highest degree of professional ability in the real estate industry,through shared support and care it fosters a sense of unity among members and create a forum for all real estate professionals."
         },
-        {
-            name: "Anita George",
-            title: "Cultural Director",
-            email:'george.anita@rocketmail.com',
-            comWebsite:'',
-            address:'',
-            profession: 'Lender',
-            company: 'Titan Lending',
-            role: 'Sr loan Officer and Business Development',
-            about: "SAAREP, which stands for South Asian Association of Real Estate Professionals, is a fantastic platform designed to provide networking, collaboration, education, consultation, referrals, and cultural events for professionals in the real estate industry. The organization serves as a hub for connecting like-minded individuals within South Asian communities, bringing together individuals from diverse backgrounds and cultures to exchange ideas and best practices. Through their numerous events, they offer valuable insights on the latest trends and developments in the industry, as well as opportunities to learn from experts and engage in meaningful discussions on pressing issues facing the industry. By providing access to resources and fostering collaboration, SAAREP plays a key role in helping real estate professionals succeed and grow their businesses. One of the key goals of SAAREP is to support and empower real estate professionals like yourself, who are looking to make a difference in their communities and grow their businesses. By joining this association, you'll have access to valuable resources, such as mentorship opportunities, educational programs, and networking events, that can help you enhance your skills and knowledge, expand your professional network, and find new career opportunities. Additionally, you'll be able to connect with other professionals who share your vision and passion for making positive changes in the industry, and collaborate on projects and initiatives that can benefit your clients and the community as a whole. Whether you're just starting out or looking to take your career to the next level, SAAREP is an excellent platform that can provide you with the support and guidance you need to achieve your goals. When I started in the lending sector 22 years ago, there was many a times I wished I had the support of my community.I am a long term resident of the DMV area and have two kids and a dog.I am a foodie and love to try new cuisines.In my free time, I also love to travel and experience different cultures and cuisines."
-        },
+        // {
+        //     name: "Anita George",
+        //     title: "Cultural Director",
+        //     email:'george.anita@rocketmail.com',
+        //     comWebsite:'',
+        //     address:'',
+        //     profession: 'Lender',
+        //     company: 'Titan Lending',
+        //     role: 'Sr loan Officer and Business Development',
+        //     about: "SAAREP, which stands for South Asian Association of Real Estate Professionals, is a fantastic platform designed to provide networking, collaboration, education, consultation, referrals, and cultural events for professionals in the real estate industry. The organization serves as a hub for connecting like-minded individuals within South Asian communities, bringing together individuals from diverse backgrounds and cultures to exchange ideas and best practices. Through their numerous events, they offer valuable insights on the latest trends and developments in the industry, as well as opportunities to learn from experts and engage in meaningful discussions on pressing issues facing the industry. By providing access to resources and fostering collaboration, SAAREP plays a key role in helping real estate professionals succeed and grow their businesses. One of the key goals of SAAREP is to support and empower real estate professionals like yourself, who are looking to make a difference in their communities and grow their businesses. By joining this association, you'll have access to valuable resources, such as mentorship opportunities, educational programs, and networking events, that can help you enhance your skills and knowledge, expand your professional network, and find new career opportunities. Additionally, you'll be able to connect with other professionals who share your vision and passion for making positive changes in the industry, and collaborate on projects and initiatives that can benefit your clients and the community as a whole. Whether you're just starting out or looking to take your career to the next level, SAAREP is an excellent platform that can provide you with the support and guidance you need to achieve your goals. When I started in the lending sector 22 years ago, there was many a times I wished I had the support of my community.I am a long term resident of the DMV area and have two kids and a dog.I am a foodie and love to try new cuisines.In my free time, I also love to travel and experience different cultures and cuisines."
+        // },
         {
             name: "Nick Rowan",
             title: "Education Director",

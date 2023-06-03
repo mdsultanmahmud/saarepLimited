@@ -18,11 +18,6 @@ const About = () => {
             img: abuzar
         },
         {
-            name: "Anita George",
-            position: "Cultural Director",
-            img: anita
-        },
-        {
             name: "Atul Gupta",
             position: "Treasurer",
             img: atul
@@ -36,11 +31,6 @@ const About = () => {
             name: "Jawaid Kotwal",
             position: "Director - Community Engagement",
             img: kotwal
-        },
-        {
-            name: "Lavina Samtani",
-            position: "Member Relations",
-            img: lavina
         },
         {
             name: "Nick Rowan",
