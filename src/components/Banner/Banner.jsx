@@ -11,6 +11,7 @@ import event from '../../assets/events.png'
 import CarouselProvider from '../Carousel/CarouselProvider';
 import './Banner.css'
 import PrevEvents from '../PrevEvents/PrevEvents';
+import EstateBeyond from '../PrevEvents/EstateBeyond';
 const Banner = () => {
     return (
         <div className='my-8 flex gap-5 flex-col lg:flex-row pt-20'>
@@ -46,6 +47,7 @@ const Banner = () => {
                 </div>
                 <div>
                     <h1 className='font-bold text-xl text-black my-6'>Previous Events</h1>
+                    <EstateBeyond/>
                     <PrevEvents></PrevEvents>
                 </div>
             </div>
