@@ -40,16 +40,16 @@ const CarouselProvider = () => {
             <div className='h-[400px] md:h-[505px] lg:h-[600px]'>
                 <div className='relative h-full'>
                     <img src={caroselFive} className="h-full" />
-                    <button className='text-white font-bold absolute top-0 left-0 bg-black opacity-80 text-white h-full w-full grid place-items-center'><a className='bg-blue-500 hover:bg-blue-700 mb-2 py-2 px-4 rounded-lg ' href="https://www.eventbrite.com/e/saarep-award-gala-a-black-tie-event-tickets-618001738837 " class="no-underline hover:underline ...">Register Here</a></button>
+                    <a className='text-white font-bold  bg-red-900 z-5 mb-2 py-2 px-4 rounded-lg opacity-1 absolute bottom-2 left-[43%]' href="https://www.eventbrite.com/e/saarep-award-gala-a-black-tie-event-tickets-618001738837 ">Register Here</a>
                 </div>
             </div>
             <div className='h-[400px] md:h-[505px] lg:h-[600px]'>
                 <div className='relative h-full'>
                     <img src={caroselOne} className="h-full" />
-                    <p className='font-bold uppercase text-xl md:text-2xl absolute top-0 left-0 bg-black opacity-80 text-white h-full w-full grid place-items-center'><span className='p-8'>SAAREP - A South Asian Professional's Networking Community that connects Professionals who directly or indirectly contribute to Real Estate Industry in DC, MD and VA</span></p>
+                    <p className='font-bold uppercase text-xl md:text-2xl absolute top-0 left-0 bg-black opacity-80 text-white h-full w-full grid place-itmes-center'><span className='p-8'>SAAREP - A South Asian Professional's Networking Community that connects Professionals who directly or indirectly contribute to Real Estate Industry in DC, MD and VA</span></p>
                 </div>
             </div>
-            
+
             <div className='h-[400px] md:h-[505px] lg:h-[600px]'>
                 <div className='relative h-full'>
                     <img src={caroselTwo} className="h-full" />
