@@ -39,10 +39,8 @@ const Banner = () => {
 
                     </div> */}
                     <div className='flex flex-col items-center justify-center  bg-gray-600 gap-2 mb-2 p-2'>
-
-                        <p className='text-white font-bold'>2023 SAAREP Annual Conference - REAL ESTATE & BEYOND</p>
-                        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold mb-2 py-2 px-4 rounded-full'><a href="https://www.eventbrite.com/e/2023-saarep-annual-conference-real-estate-beyond-tickets-617395515607" class="no-underline hover:underline ...">Register Here</a></button>
-
+                        <p className='text-white font-bold'>SAAREP AWARD GALA-A black Tie Event for Profesionals</p>
+                        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold mb-2 py-2 px-4 rounded-full'><a href="https://www.eventbrite.com/e/saarep-award-gala-a-black-tie-event-tickets-618001738837 " class="no-underline hover:underline ...">Register Here</a></button>
                     </div>
                 </div>
                 <div>
