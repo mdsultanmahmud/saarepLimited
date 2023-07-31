@@ -38,12 +38,13 @@ const CarouselProvider = () => {
 
                 </div>
             </div> */}
-            <div className='h-[400px] md:h-[505px] lg:h-[600px]'>
+
+            {/* <div className='h-[400px] md:h-[505px] lg:h-[600px]'>
                 <div className='relative h-full'>
                     <img src={nightGala} className="h-full" />
-                    {/* <a className='text-white font-bold  bg-red-900 z-5 mb-2 py-2 px-4 rounded-lg opacity-1 absolute bottom-2 left-[43%]' href="https://www.eventbrite.com/e/saarep-award-gala-a-black-tie-event-tickets-618001738837 ">Register Here</a> */}
                 </div>
-            </div>
+            </div> */}
+
             <div className='h-[400px] md:h-[505px] lg:h-[600px]'>
                 <div className='relative h-full'>
                     <img src={caroselOne} className="h-full" />
